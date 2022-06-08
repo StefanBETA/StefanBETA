@@ -1,10 +1,18 @@
-- 👋 Hi, I’m @StefanBETA
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+function onCreate()
 
-<!---
-StefanBETA/StefanBETA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+	get = getRandomInt(1,1)
+
+end
+
+
+
+function onUpdate()
+
+		if get == 1 then
+
+			setTextString("botplayTxt", "Your Text Here")
+
+
+	end
+
+end
